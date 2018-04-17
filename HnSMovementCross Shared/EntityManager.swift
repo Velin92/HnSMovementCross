@@ -15,7 +15,7 @@ class EntityManager {
     var entities = Set<GKEntity>()
     var scene: GameScene
     
-    init(scene: GameScene){
+    init(scene: GameScene) {
         self.scene = scene
     }
     

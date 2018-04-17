@@ -12,7 +12,7 @@ import SpriteKit
 
 class SpriteComponent: GKComponent {
     
-    var sprite = SKSpriteNode(color: SKColor.red, size: CGSize(width. 100, height: 100))
+    var sprite = SKSpriteNode(color: SKColor.red, size: CGSize(width: 100, height: 100))
     
     
 }
