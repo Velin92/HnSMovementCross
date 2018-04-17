@@ -23,6 +23,10 @@
 		A79AAF1A2086710A00FD8772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79AAEF52086710A00FD8772 /* Assets.xcassets */; };
 		A79AAF242086726600FD8772 /* GameControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAF232086726600FD8772 /* GameControls.swift */; };
 		A79AAF252086726600FD8772 /* GameControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAF232086726600FD8772 /* GameControls.swift */; };
+		A79AAF2720867F5800FD8772 /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAF2620867F5800FD8772 /* EntityManager.swift */; };
+		A79AAF2820867F5800FD8772 /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAF2620867F5800FD8772 /* EntityManager.swift */; };
+		A79AAF2A2086804900FD8772 /* SpriteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAF292086804900FD8772 /* SpriteComponent.swift */; };
+		A79AAF2B2086804900FD8772 /* SpriteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAF292086804900FD8772 /* SpriteComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,8 @@
 		A79AAF102086710A00FD8772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A79AAF122086710A00FD8772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A79AAF232086726600FD8772 /* GameControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControls.swift; sourceTree = "<group>"; };
+		A79AAF2620867F5800FD8772 /* EntityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityManager.swift; sourceTree = "<group>"; };
+		A79AAF292086804900FD8772 /* SpriteComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 				A79AAEF42086710800FD8772 /* GameScene.swift */,
 				A79AAEF52086710A00FD8772 /* Assets.xcassets */,
 				A79AAF232086726600FD8772 /* GameControls.swift */,
+				A79AAF2620867F5800FD8772 /* EntityManager.swift */,
+				A79AAF292086804900FD8772 /* SpriteComponent.swift */,
 			);
 			path = "HnSMovementCross Shared";
 			sourceTree = "<group>";
@@ -218,9 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79AAF2720867F5800FD8772 /* EntityManager.swift in Sources */,
 				A79AAF172086710A00FD8772 /* GameScene.swift in Sources */,
 				A79AAF002086710A00FD8772 /* GameViewController.swift in Sources */,
 				A79AAEFE2086710A00FD8772 /* AppDelegate.swift in Sources */,
+				A79AAF2A2086804900FD8772 /* SpriteComponent.swift in Sources */,
 				A79AAF242086726600FD8772 /* GameControls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,9 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79AAF2820867F5800FD8772 /* EntityManager.swift in Sources */,
 				A79AAF182086710A00FD8772 /* GameScene.swift in Sources */,
 				A79AAF0E2086710A00FD8772 /* GameViewController.swift in Sources */,
 				A79AAF0C2086710A00FD8772 /* AppDelegate.swift in Sources */,
+				A79AAF2B2086804900FD8772 /* SpriteComponent.swift in Sources */,
 				A79AAF252086726600FD8772 /* GameControls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
