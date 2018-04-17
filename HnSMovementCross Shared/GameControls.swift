@@ -38,12 +38,12 @@ private enum KeyboardDirection : UInt16 {
     }
 }
 
-extension GameViewController: KeyboardAndMouseEventsDelegate {
+extension GameScene: KeyboardAndMouseEventsDelegate {
 }
 
 #endif
 
-extension GameViewController {
+extension GameScene {
     
     // MARK: Controller orientation
     
