@@ -21,6 +21,8 @@
 		A79AAF182086710A00FD8772 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAEF42086710800FD8772 /* GameScene.swift */; };
 		A79AAF192086710A00FD8772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79AAEF52086710A00FD8772 /* Assets.xcassets */; };
 		A79AAF1A2086710A00FD8772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79AAEF52086710A00FD8772 /* Assets.xcassets */; };
+		A79AAF242086726600FD8772 /* GameControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAF232086726600FD8772 /* GameControls.swift */; };
+		A79AAF252086726600FD8772 /* GameControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAF232086726600FD8772 /* GameControls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,7 @@
 		A79AAF0D2086710A00FD8772 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A79AAF102086710A00FD8772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A79AAF122086710A00FD8772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79AAF232086726600FD8772 /* GameControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControls.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,7 @@
 				A79AAEF32086710800FD8772 /* GameScene.sks */,
 				A79AAEF42086710800FD8772 /* GameScene.swift */,
 				A79AAEF52086710A00FD8772 /* Assets.xcassets */,
+				A79AAF232086726600FD8772 /* GameControls.swift */,
 			);
 			path = "HnSMovementCross Shared";
 			sourceTree = "<group>";
@@ -217,6 +221,7 @@
 				A79AAF172086710A00FD8772 /* GameScene.swift in Sources */,
 				A79AAF002086710A00FD8772 /* GameViewController.swift in Sources */,
 				A79AAEFE2086710A00FD8772 /* AppDelegate.swift in Sources */,
+				A79AAF242086726600FD8772 /* GameControls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +232,7 @@
 				A79AAF182086710A00FD8772 /* GameScene.swift in Sources */,
 				A79AAF0E2086710A00FD8772 /* GameViewController.swift in Sources */,
 				A79AAF0C2086710A00FD8772 /* AppDelegate.swift in Sources */,
+				A79AAF252086726600FD8772 /* GameControls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
