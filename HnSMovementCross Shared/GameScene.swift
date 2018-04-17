@@ -12,6 +12,7 @@ import simd
 
 class GameScene: SKScene {
     
+    var entityManager: EntityManager?
     internal var controllerDPad: GCControllerDirectionPad?
     internal var controllerStoredDirection = float2(0.0) // left/right up/down
     
@@ -37,6 +38,8 @@ class GameScene: SKScene {
             label.alpha = 0.0
             label.run(SKAction.fadeIn(withDuration: 2.0))
         }
+        entityManager = EntityManager(scene: self)
+        
         
         // Create shape node to use during mouse interaction
     }
