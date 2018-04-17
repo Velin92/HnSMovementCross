@@ -75,11 +75,11 @@ extension GameScene {
     
     internal func controllerDirection() -> float2 {
         // Poll when using a game controller
-        if let dpad = controllerDPad {
+        if let dpad = self.controllerDPad {
             if dpad.xAxis.value == 0.0 && dpad.yAxis.value == 0.0 {
-                controllerStoredDirection = float2(0.0)
+                self.controllerStoredDirection = float2(0.0)
             } else {
-                controllerStoredDirection = clamp(controllerStoredDirection + float2(dpad.xAxis.value, -dpad.yAxis.value) * GameViewController.controllerAcceleration, min: -GameViewController.controllerDirectionLimit, max: GameViewController.controllerDirectionLimit)
+                self.controllerStoredDirection = clamp(controllerStoredDirection + float2(dpad.xAxis.value, -dpad.yAxis.value) * GameScene.controllerAcceleration, min: -GameScene.controllerDirectionLimit, max: GameScene.controllerDirectionLimit)
             }
         }
         
