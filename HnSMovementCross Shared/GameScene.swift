@@ -36,41 +36,13 @@ class GameScene: SKScene {
         // Create shape node to use during mouse interaction
     }
     
-    #if os(watchOS)
-    override func sceneDidLoad() {
-        self.setUpScene()
-    }
-    #else
+   
     override func didMove(to view: SKView) {
         self.setUpScene()
     }
-    #endif
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
     }
 }
 
-#if os(iOS) || os(tvOS)
-// Touch-based event handling
-extension GameScene {
-
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if let label = self.label {
-            label.run(SKAction.init(named: "Pulse")!, withKey: "fadeInOut")
-        }
-    }
-    
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-    }
-    
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-    }
-    
-    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-
-    }
-    
-   
-}
-#endif
