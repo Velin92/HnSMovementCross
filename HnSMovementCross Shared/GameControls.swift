@@ -39,6 +39,29 @@ private enum KeyboardDirection : UInt16 {
 }
 
 extension GameScene: KeyboardAndMouseEventsDelegate {
+    func mouseDown(in view: NSView, with event: NSEvent) -> Bool {
+        if let label = self.label {
+            label.run(SKAction.init(named: "Pulse")!, withKey: "fadeInOut")
+        }
+        return true
+    }
+    
+    func mouseDragged(in view: NSView, with event: NSEvent) -> Bool {
+        return true
+    }
+    
+    func mouseUp(in view: NSView, with event: NSEvent) -> Bool {
+        return true
+    }
+    
+    func keyDown(in view: NSView, with event: NSEvent) -> Bool {
+        return true
+    }
+    
+    func keyUp(in view: NSView, with event: NSEvent) -> Bool {
+        return true
+    }
+    
 }
 
 #endif

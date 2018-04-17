@@ -10,7 +10,7 @@ import SpriteKit
 
 class GameScene: SKScene {
     
-    fileprivate var label : SKLabelNode?
+    open var label : SKLabelNode?
     
     class func newGameScene() -> GameScene {
         // Load 'GameScene.sks' as an SKScene.
@@ -74,26 +74,3 @@ extension GameScene {
    
 }
 #endif
-
-#if os(OSX)
-// Mouse-based event handling
-extension GameScene {
-
-    override func mouseDown(with event: NSEvent) {
-        if let label = self.label {
-            label.run(SKAction.init(named: "Pulse")!, withKey: "fadeInOut")
-        }
-
-    }
-    
-    override func mouseDragged(with event: NSEvent) {
-
-    }
-    
-    override func mouseUp(with event: NSEvent) {
-
-    }
-
-}
-#endif
-
