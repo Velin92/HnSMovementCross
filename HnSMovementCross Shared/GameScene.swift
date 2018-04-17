@@ -7,8 +7,13 @@
 //
 
 import SpriteKit
+import GameController
+import simd
 
 class GameScene: SKScene {
+    
+    internal var controllerDPad: GCControllerDirectionPad?
+    internal var controllerStoredDirection = float2(0.0) // left/right up/down
     
     open var label : SKLabelNode?
     
