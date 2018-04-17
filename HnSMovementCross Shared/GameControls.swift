@@ -82,7 +82,6 @@ extension GameScene {
                 self.controllerStoredDirection = clamp(controllerStoredDirection + float2(dpad.xAxis.value, -dpad.yAxis.value) * GameScene.controllerAcceleration, min: -GameScene.controllerDirectionLimit, max: GameScene.controllerDirectionLimit)
             }
         }
-        
         return controllerStoredDirection
     }
 }
