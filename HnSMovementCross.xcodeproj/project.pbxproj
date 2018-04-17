@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A79AAEFE2086710A00FD8772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAEFD2086710A00FD8772 /* AppDelegate.swift */; };
+		A79AAF002086710A00FD8772 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAEFF2086710A00FD8772 /* GameViewController.swift */; };
+		A79AAF032086710A00FD8772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79AAF012086710A00FD8772 /* Main.storyboard */; };
+		A79AAF0C2086710A00FD8772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAF0B2086710A00FD8772 /* AppDelegate.swift */; };
+		A79AAF0E2086710A00FD8772 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAF0D2086710A00FD8772 /* GameViewController.swift */; };
+		A79AAF112086710A00FD8772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79AAF0F2086710A00FD8772 /* Main.storyboard */; };
+		A79AAF132086710A00FD8772 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A79AAEF22086710800FD8772 /* Actions.sks */; };
+		A79AAF142086710A00FD8772 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A79AAEF22086710800FD8772 /* Actions.sks */; };
+		A79AAF152086710A00FD8772 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A79AAEF32086710800FD8772 /* GameScene.sks */; };
+		A79AAF162086710A00FD8772 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A79AAEF32086710800FD8772 /* GameScene.sks */; };
+		A79AAF172086710A00FD8772 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAEF42086710800FD8772 /* GameScene.swift */; };
+		A79AAF182086710A00FD8772 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79AAEF42086710800FD8772 /* GameScene.swift */; };
+		A79AAF192086710A00FD8772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79AAEF52086710A00FD8772 /* Assets.xcassets */; };
+		A79AAF1A2086710A00FD8772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79AAEF52086710A00FD8772 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A79AAEF22086710800FD8772 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A79AAEF32086710800FD8772 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A79AAEF42086710800FD8772 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A79AAEF52086710A00FD8772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A79AAEFA2086710A00FD8772 /* HnSMovementCross.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HnSMovementCross.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79AAEFD2086710A00FD8772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A79AAEFF2086710A00FD8772 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A79AAF022086710A00FD8772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A79AAF042086710A00FD8772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79AAF092086710A00FD8772 /* HnSMovementCross.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HnSMovementCross.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79AAF0B2086710A00FD8772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A79AAF0D2086710A00FD8772 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A79AAF102086710A00FD8772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A79AAF122086710A00FD8772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A79AAEF72086710A00FD8772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79AAF062086710A00FD8772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A79AAEEC2086710800FD8772 = {
+			isa = PBXGroup;
+			children = (
+				A79AAEF12086710800FD8772 /* HnSMovementCross Shared */,
+				A79AAEFC2086710A00FD8772 /* HnSMovementCross tvOS */,
+				A79AAF0A2086710A00FD8772 /* HnSMovementCross macOS */,
+				A79AAEFB2086710A00FD8772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A79AAEF12086710800FD8772 /* HnSMovementCross Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A79AAEF22086710800FD8772 /* Actions.sks */,
+				A79AAEF32086710800FD8772 /* GameScene.sks */,
+				A79AAEF42086710800FD8772 /* GameScene.swift */,
+				A79AAEF52086710A00FD8772 /* Assets.xcassets */,
+			);
+			path = "HnSMovementCross Shared";
+			sourceTree = "<group>";
+		};
+		A79AAEFB2086710A00FD8772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A79AAEFA2086710A00FD8772 /* HnSMovementCross.app */,
+				A79AAF092086710A00FD8772 /* HnSMovementCross.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A79AAEFC2086710A00FD8772 /* HnSMovementCross tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				A79AAEFD2086710A00FD8772 /* AppDelegate.swift */,
+				A79AAEFF2086710A00FD8772 /* GameViewController.swift */,
+				A79AAF012086710A00FD8772 /* Main.storyboard */,
+				A79AAF042086710A00FD8772 /* Info.plist */,
+			);
+			path = "HnSMovementCross tvOS";
+			sourceTree = "<group>";
+		};
+		A79AAF0A2086710A00FD8772 /* HnSMovementCross macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A79AAF0B2086710A00FD8772 /* AppDelegate.swift */,
+				A79AAF0D2086710A00FD8772 /* GameViewController.swift */,
+				A79AAF0F2086710A00FD8772 /* Main.storyboard */,
+				A79AAF122086710A00FD8772 /* Info.plist */,
+			);
+			path = "HnSMovementCross macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A79AAEF92086710A00FD8772 /* HnSMovementCross tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79AAF1D2086710A00FD8772 /* Build configuration list for PBXNativeTarget "HnSMovementCross tvOS" */;
+			buildPhases = (
+				A79AAEF62086710A00FD8772 /* Sources */,
+				A79AAEF72086710A00FD8772 /* Frameworks */,
+				A79AAEF82086710A00FD8772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HnSMovementCross tvOS";
+			productName = "HnSMovementCross tvOS";
+			productReference = A79AAEFA2086710A00FD8772 /* HnSMovementCross.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A79AAF082086710A00FD8772 /* HnSMovementCross macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79AAF202086710A00FD8772 /* Build configuration list for PBXNativeTarget "HnSMovementCross macOS" */;
+			buildPhases = (
+				A79AAF052086710A00FD8772 /* Sources */,
+				A79AAF062086710A00FD8772 /* Frameworks */,
+				A79AAF072086710A00FD8772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HnSMovementCross macOS";
+			productName = "HnSMovementCross macOS";
+			productReference = A79AAF092086710A00FD8772 /* HnSMovementCross.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A79AAEED2086710800FD8772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = lollibus;
+				TargetAttributes = {
+					A79AAEF92086710A00FD8772 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A79AAF082086710A00FD8772 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = A79AAEF02086710800FD8772 /* Build configuration list for PBXProject "HnSMovementCross" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A79AAEEC2086710800FD8772;
+			productRefGroup = A79AAEFB2086710A00FD8772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A79AAEF92086710A00FD8772 /* HnSMovementCross tvOS */,
+				A79AAF082086710A00FD8772 /* HnSMovementCross macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A79AAEF82086710A00FD8772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79AAF032086710A00FD8772 /* Main.storyboard in Resources */,
+				A79AAF152086710A00FD8772 /* GameScene.sks in Resources */,
+				A79AAF192086710A00FD8772 /* Assets.xcassets in Resources */,
+				A79AAF132086710A00FD8772 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79AAF072086710A00FD8772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79AAF112086710A00FD8772 /* Main.storyboard in Resources */,
+				A79AAF162086710A00FD8772 /* GameScene.sks in Resources */,
+				A79AAF1A2086710A00FD8772 /* Assets.xcassets in Resources */,
+				A79AAF142086710A00FD8772 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A79AAEF62086710A00FD8772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79AAF172086710A00FD8772 /* GameScene.swift in Sources */,
+				A79AAF002086710A00FD8772 /* GameViewController.swift in Sources */,
+				A79AAEFE2086710A00FD8772 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79AAF052086710A00FD8772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79AAF182086710A00FD8772 /* GameScene.swift in Sources */,
+				A79AAF0E2086710A00FD8772 /* GameViewController.swift in Sources */,
+				A79AAF0C2086710A00FD8772 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A79AAF012086710A00FD8772 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79AAF022086710A00FD8772 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A79AAF0F2086710A00FD8772 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79AAF102086710A00FD8772 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A79AAF1B2086710A00FD8772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A79AAF1C2086710A00FD8772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A79AAF1E2086710A00FD8772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3XFT964L7;
+				INFOPLIST_FILE = "HnSMovementCross tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cose.lollibus.HnSMovementCross;
+				PRODUCT_NAME = HnSMovementCross;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Debug;
+		};
+		A79AAF1F2086710A00FD8772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3XFT964L7;
+				INFOPLIST_FILE = "HnSMovementCross tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cose.lollibus.HnSMovementCross;
+				PRODUCT_NAME = HnSMovementCross;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A79AAF212086710A00FD8772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J3XFT964L7;
+				INFOPLIST_FILE = "HnSMovementCross macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cose.lollibus.HnSMovementCross;
+				PRODUCT_NAME = HnSMovementCross;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A79AAF222086710A00FD8772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J3XFT964L7;
+				INFOPLIST_FILE = "HnSMovementCross macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cose.lollibus.HnSMovementCross;
+				PRODUCT_NAME = HnSMovementCross;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A79AAEF02086710800FD8772 /* Build configuration list for PBXProject "HnSMovementCross" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79AAF1B2086710A00FD8772 /* Debug */,
+				A79AAF1C2086710A00FD8772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79AAF1D2086710A00FD8772 /* Build configuration list for PBXNativeTarget "HnSMovementCross tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79AAF1E2086710A00FD8772 /* Debug */,
+				A79AAF1F2086710A00FD8772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79AAF202086710A00FD8772 /* Build configuration list for PBXNativeTarget "HnSMovementCross macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79AAF212086710A00FD8772 /* Debug */,
+				A79AAF222086710A00FD8772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A79AAEED2086710800FD8772 /* Project object */;
+}
